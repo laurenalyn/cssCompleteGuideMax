@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Montserrat:400,600");
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#product-overview {
+    background: #ff1b68;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+
+/* Types of Combinators */
+/* Adjacent Sibling
+div + p {color: red} Will assign all paragraphs to the color red that follow an h2. 
+Elelments must share the same parent and second element must come immediately after ther first element
+General Sibling
+div ~ p {color: red} Will assign all paragraphs to the color red following an h2 but doesnt have to come 
+directly after it and it must also share the same parent
+Child 
+div > p {color: red} Any paragraph that is a direct child of the div will get the style and not one ones nested 
+inside another element for example
+Decendant
+div p {color: red} All paragraphs inside the div will turn red. It doesnt need to be 
+a direct child just a descendant of the div
+*/
